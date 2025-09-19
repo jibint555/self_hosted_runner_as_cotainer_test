@@ -1,6 +1,6 @@
-#GitHub Actions self-hosted runner in a container:
+# GitHub Actions self-hosted runner in a container:
 
-# self_hosted_runner_as_cotainer_test
+
 
 ```# Self-Hosted GitHub Actions Runner (Docker)
 
@@ -34,3 +34,13 @@ This repository contains a Docker-based setup for running a **self-hosted GitHub
 ```bash
 git clone https://github.com/<username>/<repo>.git
 cd <repo>```
+
+
+
+`Prepare Environment Variables`
+
+The runner requires:
+
+RUNNER_TOKEN: Token generated from the GitHub repository or organization
+
+DOCKER_GID (optional): If you want the runner to run Docker-in-Docker
