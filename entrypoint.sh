@@ -14,7 +14,7 @@ if [ -n "$DOCKER_GID" ]; then
 fi
 
 # Register runner
-./config.sh --url https://github.com/jibint555/aws_cdk_projects \
+./config.sh --url https://github.com/jibint555/self_hosted_runner_as_cotainer_test \
   --token ${RUNNER_TOKEN} \
   --name "test-runner" \
   --labels "gibin_runner" \
