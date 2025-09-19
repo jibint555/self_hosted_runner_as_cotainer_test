@@ -1,0 +1,8 @@
+.bash_logout
+.bashrc
+.cache/
+.git/
+.local/
+.profile
+.ssh/
+key.pem
