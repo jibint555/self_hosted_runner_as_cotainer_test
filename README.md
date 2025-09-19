@@ -1,4 +1,4 @@
-#GitHub Actions self-hosted runner in a container:
+# GitHub Actions self-hosted runner in a container:
 
 # self_hosted_runner_as_cotainer_test
 
@@ -31,7 +31,7 @@ This repository contains a Docker-based setup for running a **self-hosted GitHub
 
 ### 1. Clone this repository
 
-```bash
+
 git clone https://github.com/<username>/<repo>.git
 cd <repo>```
 
