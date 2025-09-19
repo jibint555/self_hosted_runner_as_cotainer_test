@@ -34,3 +34,12 @@ This repository contains a Docker-based setup for running a **self-hosted GitHub
 ```bash
 git clone https://github.com/<username>/<repo>.git
 cd <repo>```
+
+
+##Prepare Environment Variables
+
+The runner requires:
+
+RUNNER_TOKEN: Token generated from the GitHub repository or organization
+
+DOCKER_GID (optional): If you want the runner to run Docker-in-Docker
