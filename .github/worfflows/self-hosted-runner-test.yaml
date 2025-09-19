@@ -1,0 +1,21 @@
+
+# .github/workflows/test-selfhosted.yml
+name: Test Self-Hosted Runner
+
+on:
+  push:
+    branches: [ main ]  # Trigger on push to main branch
+  workflow_dispatch:     # Allow manual trigger
+
+jobs:
+  test-runner:
+    runs-on: gibin_runner      # Important: selects your self-hosted runner
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Say Hello
+        run: echo "Hello from self-hosted runner3!"
+
+      - name: Show OS
+        run: uname -a
