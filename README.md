@@ -42,7 +42,7 @@ cd <repo>
 
 The runner requires:
 
-[] - <span style="color:red"> RUNNER_TOKEN: Token generated from the GitHub repository or organization </span>
+<span style="color:red"> RUNNER_TOKEN: Token generated from the GitHub repository or organization </span>
 
 DOCKER_GID (optional): If you want the runner to run Docker-in-Docker
 
