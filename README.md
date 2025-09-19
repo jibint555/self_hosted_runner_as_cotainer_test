@@ -33,7 +33,7 @@ This repository contains a Docker-based setup for running a **self-hosted GitHub
 
 
 git clone https://github.com/<username>/<repo>.git
-cd <repo>```
+cd <repo> #```
 
 
 ##Prepare Environment Variables
